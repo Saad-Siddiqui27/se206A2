@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="_playPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ActionsController">
+   <children>
+      <Label layoutX="125.0" layoutY="28.0" text="Which Creation would you like to play?">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="Play" layoutX="423.0" layoutY="234.0" mnemonicParsing="false" onAction="#playHandle" text="Play" />
+      <Button layoutX="416.0" layoutY="305.0" mnemonicParsing="false" onAction="#MainMenu" text="Main Menu" />
+      <Button layoutX="417.0" layoutY="175.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+      <ListView fx:id="_listView" layoutX="13.0" layoutY="68.0" prefHeight="318.0" prefWidth="306.0" />
+   </children>
+</AnchorPane>
